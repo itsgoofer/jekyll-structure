@@ -1,0 +1,20 @@
+{
+  "name": "jeyll boilerplate",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "serve": "./node_modules/.bin/webpack --watch | jekyll serve --livereload --incremental"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.2.3",
+    "babel-preset-env": "^1.7.0",
+    "webpack": "^5.64.4",
+    "webpack-cli": "^4.9.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.16.0",
+    "axios": "^0.24.0"
+  }
+}
